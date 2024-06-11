@@ -7,7 +7,8 @@ import video from '../../assets/videos/video-2.mp4'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src={video} autoPlay loop muted />
+      {/* <video src={video} autoPlay loop muted /> */}
+      <img src={video} alt="video" />
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
